@@ -6,7 +6,7 @@
      <body>
           <h1>Registration form</h1>
          <form action="  https://anusreek9.github.io/3C03CS/success.html">
-          <input type="text" name="name" placeholder="Your name" required/><br /><br />
+          <input type="text"  placeholder="Your name" required/><br /><br />
           Gender:
           Male<input type="radio" value="male" name="gender"/>
           Female<input type="radio" value="female" name="gender"/>
