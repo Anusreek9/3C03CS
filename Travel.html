@@ -4,3 +4,43 @@
    <title>Travel Care</title>
  </head>
 <body>
+   <h1>Registration form</h1>
+         <form action=>
+          <input type="text" name="name" placeholder="Your name" required/><br /><br />
+          Gender:
+          Male<input type="radio" value="male" name="gender"/>
+          Female<input type="radio" value="female" name="gender"/>
+          Others<input type="radio" value="others" name="gender"/><br /><br />
+          DOB:<input type="Date" /><br /><br />
+          <textarea rows="5" cols="25" placeholder="Address"></textarea><br /><br />
+          Category:
+          <input type=text list="Category"/>
+          <datalist id="Category">
+              <option value="North Kerala"/>
+              <option value="South Kerala"/>
+              <option value="Central Kerala"/>
+              <option value="Entire Kerala"/>
+              <option value="Beaches"/>
+              <option value="Back waters"/>
+              <option value="Hills"/>
+              <option value="Honeymoon"/>
+              <option value="Ayurveda"/>
+          </datalist><br/><br />
+          Destination Include:
+          <select required>
+                <option>Kannur University</option>
+                <option>University of Calicut</option>
+                <option>MG University</option>
+                <option>Kerala University</option>
+          </select><br /><br />
+          Languages known:
+          Malayalam<input type="checkbox" value="mal"/>
+          English<input type="checkbox" value="eng"/>
+          Hindi<input type="checkbox" value="hin"/><br /><br />
+          <input type="email" placeholder="Your email address"/><br /><br />
+         <input type="password" placeholder="Enter password" pattetn=".{8,}" title="password must contain 8 letters"/><br/><br/>
+         <input type="submit" value="submit"/>
+        </form>
+     </body>
+</html>
+
