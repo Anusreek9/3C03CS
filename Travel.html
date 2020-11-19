@@ -1,11 +1,11 @@
 <!DOCTYPE>
 <html>
  <head> 
-   <title>Travel Care</title>
+   <title>Tour Search</title>
  </head>
 <body style= "background-color:Powderblue;">
-   <h1>Package</h1>
-         <form action=>
+   <h1>Tour Search</h1>
+         <form>
           <input type="text" name="name" placeholder="Your name" required/><br /><br />
           Gender:
           Male<input type="radio" value="male" name="gender"/>
@@ -13,6 +13,9 @@
           Others<input type="radio" value="others" name="gender"/><br /><br />
          
           <textarea rows="5" cols="25" placeholder="Address"></textarea><br /><br />
+        <input type="email" placeholder="Your email address"/><br /><br />
+         <input type="password" placeholder="Enter password" pattetn=".{8,}" title="password must contain 8 letters"/><br/><br/>
+         
           Category:
           <input type=text list="Category"/>
           <datalist id="Category">
@@ -27,7 +30,8 @@
               <option value="Ayurveda"/>
           </datalist><br/><br />
           Destination Include:
-          <select required>
+          <select>
+                <option>Any Destination</option>
                 <option>Alappuzha</option>
                 <option>Ananthapura Lake temple</option>
                 <option>Aranmula-the Heritage village in pathanamthitta </option>
@@ -77,9 +81,8 @@
                 <option>Varkala Beach</option>
           </select><br /><br />
          Experiences Offered:
-         <select required>
-           <input type=text list="Experience Offered"/>
-          <datalist id="Experience Offered">
+         <select >
+           
           
               <option value="Ayurveda"/>
               <option value="Village Life experience"/>
@@ -91,10 +94,40 @@
               <option value="City sight seeing"/>
               <option value="House Boat"/>
           </select><br/><br />
-          </datalist><br /><br />
-            <input type="email" placeholder="Your email address"/><br /><br />
-         <input type="password" placeholder="Enter password" pattetn=".{8,}" title="password must contain 8 letters"/><br/><br/>
-         <input type="submit" value="Plan Your Trip"/>
+        When:
+       <select >
+           
+          
+              <option value="Anytime"/>
+              <option value="2020-11"/>
+              <option value=" 2020-12 "/>
+              <option value=" 2021-01"/>
+              <option value="2021-02" />
+              <option value=" 2021-03 />
+              <option value="2021-04 />
+              <option value="2021-05 "/>
+              <option value="2021-06 "/>
+              <option value="2021-07 "/>
+              <option value="2021-08 "/>
+              <option value="2021-09 "/>
+              <option value="2021-10 "/>
+              <option value="2021-11 "/>
+              <option value="2021-12"/>
+          </select><br/><br />
+       Duration:
+        <select >
+           
+          
+              <option value="Any"/>
+              <option value="1-7days"/>
+              <option value=" 8-14days "/>
+              <option value=" 15-21days"/>
+              <option value="22-31days" />
+              </select><br/><br />
+          
+
+            
+         <input type="submit" value="Search"/>
         </form>
      </body>
 </html>
